@@ -1,0 +1,6 @@
+framework module Pods_MEFuniversity {
+  umbrella header "Pods-MEFuniversity-umbrella.h"
+
+  export *
+  module * { export * }
+}
