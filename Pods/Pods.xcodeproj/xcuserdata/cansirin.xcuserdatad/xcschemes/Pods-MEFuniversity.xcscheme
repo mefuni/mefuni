@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "576DD77C43E3B13AF53D3AB10AD66665"
+               BlueprintIdentifier = "ACBFC558A333555A789457986C2D74FF"
                BuildableName = "Pods_MEFuniversity.framework"
                BlueprintName = "Pods-MEFuniversity"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -26,7 +26,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
@@ -37,7 +36,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -47,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "576DD77C43E3B13AF53D3AB10AD66665"
+            BlueprintIdentifier = "ACBFC558A333555A789457986C2D74FF"
             BuildableName = "Pods_MEFuniversity.framework"
             BlueprintName = "Pods-MEFuniversity"
             ReferencedContainer = "container:Pods.xcodeproj">
