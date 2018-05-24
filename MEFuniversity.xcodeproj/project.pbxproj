@@ -50,6 +50,9 @@
 		CBEE2FD91BD2F09D008F264C /* MailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEE2FD71BD2F09D008F264C /* MailViewController.swift */; };
 		F70038F92044962E00E11167 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70038F82044962E00E11167 /* RegisterViewController.swift */; };
 		F70038FB2044B20C00E11167 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70038FA2044B20C00E11167 /* SignInViewController.swift */; };
+		F76DD61B208241C10027477B /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76DD61A208241C10027477B /* DatabaseService.swift */; };
+		F76DD61D208248FA0027477B /* Lunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76DD61C208248FA0027477B /* Lunch.swift */; };
+		F76DD61F20824B350027477B /* LunchsSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76DD61E20824B350027477B /* LunchsSnapshot.swift */; };
 		F7743D1B203F05C20060AB90 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7743D1A203F05C20060AB90 /* Images.xcassets */; };
 		F792AC17203E23700065367D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F792AC16203E23700065367D /* GoogleService-Info.plist */; };
 		F7C908762057EB1B006647A5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C9086E2057EB19006647A5 /* HomeViewController.swift */; };
@@ -59,7 +62,6 @@
 		F7C9087B2057EB1B006647A5 /* BlackBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C908732057EB1A006647A5 /* BlackBoardViewController.swift */; };
 		F7C9087C2057EB1B006647A5 /* ShuttleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C908742057EB1B006647A5 /* ShuttleViewController.swift */; };
 		F7C9087D2057EB1B006647A5 /* AnnouncementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C908752057EB1B006647A5 /* AnnouncementViewController.swift */; };
-		F7D2538F2044C560005CB798 /* KeyboardLayoutConstraits.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D2538E2044C560005CB798 /* KeyboardLayoutConstraits.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,6 +131,9 @@
 		F70038F82044962E00E11167 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		F70038FA2044B20C00E11167 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		F706A036203E3934009B2F07 /* MEFuniversity.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MEFuniversity.entitlements; sourceTree = "<group>"; };
+		F76DD61A208241C10027477B /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
+		F76DD61C208248FA0027477B /* Lunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lunch.swift; sourceTree = "<group>"; };
+		F76DD61E20824B350027477B /* LunchsSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchsSnapshot.swift; sourceTree = "<group>"; };
 		F7743D1A203F05C20060AB90 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F792AC16203E23700065367D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F7C233532045C060002CA84D /* Bolts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Bolts; path = Pods/Bolts; sourceTree = "<group>"; };
@@ -139,7 +144,6 @@
 		F7C908732057EB1A006647A5 /* BlackBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackBoardViewController.swift; sourceTree = "<group>"; };
 		F7C908742057EB1B006647A5 /* ShuttleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuttleViewController.swift; sourceTree = "<group>"; };
 		F7C908752057EB1B006647A5 /* AnnouncementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementViewController.swift; sourceTree = "<group>"; };
-		F7D2538E2044C560005CB798 /* KeyboardLayoutConstraits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardLayoutConstraits.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -342,12 +346,14 @@
 				F7743D1A203F05C20060AB90 /* Images.xcassets */,
 				F70038F82044962E00E11167 /* RegisterViewController.swift */,
 				CB0013F31B8F623B0057D674 /* SlideViewController.swift */,
+				F76DD61A208241C10027477B /* DatabaseService.swift */,
 				F70038FA2044B20C00E11167 /* SignInViewController.swift */,
 				CBCF29751B8F0210007ECD12 /* ViewController.swift */,
 				CBC853F41B8F32100026E28B /* SplashViewController.swift */,
+				F76DD61C208248FA0027477B /* Lunch.swift */,
+				F76DD61E20824B350027477B /* LunchsSnapshot.swift */,
 				CB34C3911BD3FCD5009F2E34 /* InfoViewController.swift */,
 				CBBB60601BD2F88300345715 /* ContainerViewController.swift */,
-				F7D2538E2044C560005CB798 /* KeyboardLayoutConstraits.swift */,
 				CBCF29771B8F0210007ECD12 /* Main.storyboard */,
 				CBC51EE41BD2B4BC00C5F19C /* mefcampus.jpg */,
 				F792AC16203E23700065367D /* GoogleService-Info.plist */,
@@ -544,24 +550,28 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MEFuniversity/Pods-MEFuniversity-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts-Swift/BoltsSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Kanna/Kanna.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
-				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
 				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BoltsSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kanna.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
@@ -584,9 +594,10 @@
 				CBCF29761B8F0210007ECD12 /* ViewController.swift in Sources */,
 				CBCF29741B8F0210007ECD12 /* MEFuniversity.xcdatamodeld in Sources */,
 				CBEE2FD91BD2F09D008F264C /* MailViewController.swift in Sources */,
-				F7D2538F2044C560005CB798 /* KeyboardLayoutConstraits.swift in Sources */,
 				CB0521461BD2F80A00EF1AEF /* SWRevealViewController.m in Sources */,
 				F7C9087D2057EB1B006647A5 /* AnnouncementViewController.swift in Sources */,
+				F76DD61D208248FA0027477B /* Lunch.swift in Sources */,
+				F76DD61F20824B350027477B /* LunchsSnapshot.swift in Sources */,
 				CB64A3CD1BD302CE00CB6EEE /* ShuttleItemSec.swift in Sources */,
 				CB1E25F11B8F031000F97239 /* VideoCutter.swift in Sources */,
 				CB1E25F21B8F031000F97239 /* VideoSplashViewController.swift in Sources */,
@@ -600,6 +611,7 @@
 				CB64A3CC1BD302CE00CB6EEE /* ShuttleItem.swift in Sources */,
 				F7C908762057EB1B006647A5 /* HomeViewController.swift in Sources */,
 				CBCF29711B8F0210007ECD12 /* AppDelegate.swift in Sources */,
+				F76DD61B208241C10027477B /* DatabaseService.swift in Sources */,
 				CBBB60611BD2F88300345715 /* ContainerViewController.swift in Sources */,
 				CB80EB3A1B96EB6C00D32484 /* LeftMenuViewController.swift in Sources */,
 				F7C9087B2057EB1B006647A5 /* BlackBoardViewController.swift in Sources */,

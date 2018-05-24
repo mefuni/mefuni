@@ -6,5 +6,7 @@ target "MEFuniversity" do
    pod 'Parse'
    pod 'Bolts-Swift'
    pod 'TextFieldEffects'
-   pod 'Spring', :git => 'https://github.com/MengTo/Spring.git'
+   pod 'SwiftSoup'
+   pod 'Alamofire'
+   pod 'Kanna'
 end
